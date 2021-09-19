@@ -46,14 +46,16 @@ def decrypt_medium(src, key):
 
 
 if __name__ == "__main__":
-    print("What action do you want to execute?")
+    print("\nWhat action do you want to execute?")
     action = input("Encrypt [e] | Decrypt [d]: ")
+
+    print()
 
     if action == "e":
         src = input("Folder to be encrypted (recursively): ")
         dst = input("Path where the keys will be stored:   ")
 
-        print("!!! Attention: All files inside the folder {src} \nwill be encrypted and can only be accessed by decrypting them again with the keys stored in \n{dst} !!!")
+        print("\n!!! Attention: All files inside the folder {src} \nwill be encrypted and can only be accessed by decrypting them again with the keys stored in \n{dst} !!!\n")
 
         confirm = input("Confirm [y/n]: ")
         if confirm != "y":
@@ -65,7 +67,7 @@ if __name__ == "__main__":
         src = input("Folder to be decrypted (recursively): ")
         key = input("Path where the keys are stored:       ")
 
-        print("!!! Attention: All files inside the folder {src} \nwill be decrypted with the keys stored in {key} \nand can therefore be accessed again !!!")
+        print("\n!!! Attention: All files inside the folder {src} \nwill be decrypted with the keys stored in {key} \nand can therefore be accessed again !!!\n")
 
         confirm = input("Confirm [y/n]: ")
         if confirm != "y":
