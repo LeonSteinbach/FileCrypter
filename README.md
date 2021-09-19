@@ -1,4 +1,4 @@
-# FileEncrypter
+# FileCrypter
 
 A tool to encrypt and decrypt single files or folders (recursively).
 
