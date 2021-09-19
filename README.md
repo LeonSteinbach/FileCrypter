@@ -39,3 +39,8 @@ and can therefore be accessed again !!!
 
 Confirm [y/n]: y
 ```
+
+## Disclaimer
+I am not responsible for any damage, deleted files or unintended changes to your file system that could potentially happen.
+
+**Use at your own risk!**
